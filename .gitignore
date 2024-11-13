@@ -1,0 +1,20 @@
+# 忽略用户主目录中的配置文件
+.bashrc
+.gitconfig
+.profile
+.ssh/
+
+# 忽略缓存、环境和工具生成的文件夹
+.cache/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.vscode-server/
+myenv/
+nohup.out
+
+# 忽略项目中的数据和检查点文件
+Dataset/
+checkpoints/
+sam2_configs/
